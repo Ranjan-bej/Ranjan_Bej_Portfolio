@@ -1,11 +1,17 @@
 
-  # Portfolio Website Design
+## Overview
+A personal portfolio website built using **TypeScript** and **Tailwind CSS** to showcase projects, skills, experience, and contact information with a modern and responsive design.
 
-  This is a code bundle for Portfolio Website Design. The original project is available at https://www.figma.com/design/wAzM7iUqoSJkZLAW3x4I9q/Portfolio-Website-Design.
+## Tech Stack
+- TypeScript
+- Tailwind CSS
+- Vite
 
-  ## Running the code
+## Getting Started (Run Locally)
 
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+### 1. Clone the repository
+```bash
+git clone https://github.com/Ranjan-bej/Ranjan_bej_Portfolio.git
+cd Ranjan_bej_Portfolio
+npm install
+npm run dev
