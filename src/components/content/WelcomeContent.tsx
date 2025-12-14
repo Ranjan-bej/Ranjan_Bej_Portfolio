@@ -38,7 +38,7 @@ export function WelcomeContent() {
             transition={{ delay: 0.2 }}
             className="text-3xl md:text-5xl mb-3 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent"
           >
-            Welcome to My Portfolio
+            RANJAN BEJ
           </motion.h1>
           
           <motion.div
@@ -47,11 +47,7 @@ export function WelcomeContent() {
             transition={{ delay: 0.3 }}
             className="flex items-center justify-center space-x-2 mb-5"
           >
-            <Sparkles size={16} className="text-yellow-400 animate-pulse" />
-            <p className="text-sm md:text-base text-gray-400">
-              Interactive Developer Portfolio | VS Code Edition
-            </p>
-            <Sparkles size={16} className="text-yellow-400 animate-pulse" />
+           
           </motion.div>
 
           {/* Info Cards */}
@@ -112,7 +108,7 @@ export function WelcomeContent() {
             </div>
             <div className="space-y-1 text-gray-300">
               <p><span className="text-purple-400">const</span> <span className="text-blue-400">sections</span> = [</p>
-              <p className="ml-3"><span className="text-yellow-400">'hero.tsx'</span>,        <span className="text-gray-500">// Introduction</span></p>
+              <p className="ml-3"><span className="text-yellow-400">'intro.tsx'</span>,        <span className="text-gray-500">// Introduction</span></p>
               <p className="ml-3"><span className="text-yellow-400">'about.tsx'</span>,       <span className="text-gray-500">// About Me</span></p>
               <p className="ml-3"><span className="text-yellow-400">'experience.tsx'</span>,  <span className="text-gray-500">// Work History</span></p>
               <p className="ml-3"><span className="text-yellow-400">'skills.tsx'</span>,      <span className="text-gray-500">// Tech Skills</span></p>

@@ -4,37 +4,26 @@ import { Briefcase } from 'lucide-react';
 export function ExperienceContent() {
   const experiences = [
     {
-      title: 'Senior Full Stack Developer',
-      company: 'Tech Company Inc.',
-      period: '2022 - Present',
+      title: 'Full Stack Developer Intern',
+      company: 'Kurators',
+      period: 'Oct 2025 - Present',
       description: [
-        'Led development of microservices architecture serving 1M+ users',
-        'Mentored junior developers and conducted code reviews',
-        'Implemented CI/CD pipelines reducing deployment time by 60%',
+        'Developed and enhanced responsive UI components using HTML, CSS, JavaScript, PHP, and jQuery, improving user experience across cart and product modules.',
+        'Implemented dynamic cart functionality including quantity updates, subtotal calculations, and real-time UI rendering for better performance.',
+        'Debugged and optimized existing codebase, resolving UI/UX issues and ensuring smooth modal, form, and API interactions.',
       ],
       gradient: 'from-purple-500 to-pink-500',
     },
     {
-      title: 'Full Stack Developer',
-      company: 'StartUp Co.',
-      period: '2020 - 2022',
+      title: 'Software Developer Intern',
+      company: 'Tata',
+      period: 'Jun 2025 - Jul 2025',
       description: [
         'Built responsive web applications using React and Node.js',
         'Collaborated with designers to implement pixel-perfect UIs',
         'Optimized database queries improving performance by 40%',
       ],
       gradient: 'from-blue-500 to-cyan-500',
-    },
-    {
-      title: 'Frontend Developer',
-      company: 'Digital Agency',
-      period: '2018 - 2020',
-      description: [
-        'Developed interactive user interfaces for client projects',
-        'Maintained and improved existing codebases',
-        'Implemented accessibility standards (WCAG 2.1)',
-      ],
-      gradient: 'from-green-500 to-emerald-500',
     },
   ];
 

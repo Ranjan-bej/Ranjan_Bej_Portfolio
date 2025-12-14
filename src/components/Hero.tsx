@@ -8,11 +8,10 @@ export function Hero() {
   const [isDeleting, setIsDeleting] = useState(false);
   
   const roles = [
-    'Full Stack Developer',
-    'Frontend Developer',
-    'Backend Developer',
-    'DevOps Engineer',
-    'Cloud Architect'
+    'Full Stack',
+    'Frontend',
+    'Backend',
+    'DevOps'
   ];
   
   useEffect(() => {
@@ -72,7 +71,7 @@ export function Hero() {
             transition={{ delay: 0.3 }}
             className="text-5xl sm:text-7xl lg:text-8xl mb-4 text-gray-100"
           >
-            John Doe
+            Ranjan Bej
           </motion.h1>
 
           <motion.div

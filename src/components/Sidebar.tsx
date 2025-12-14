@@ -33,7 +33,7 @@ export function Sidebar({ onFileClick, activeFile }: SidebarProps) {
               name: 'sections',
               type: 'folder',
               children: [
-                { name: 'hero.tsx', type: 'file', icon: '⚛️' },
+                { name: 'intro.tsx', type: 'file', icon: '⚛️' },
                 { name: 'about.tsx', type: 'file', icon: '⚛️' },
                 { name: 'experience.tsx', type: 'file', icon: '⚛️' },
                 { name: 'skills.tsx', type: 'file', icon: '⚛️' },

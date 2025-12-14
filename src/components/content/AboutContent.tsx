@@ -59,14 +59,21 @@ export function AboutContent() {
           <div className="mb-8 bg-[#252526] border border-purple-500/20 rounded-lg p-6 font-mono text-sm">
             <div className="text-gray-500 mb-2">// Developer.bio</div>
             <p className="text-gray-300 leading-relaxed mb-4">
-              I'm a passionate developer who loves creating beautiful and functional web applications.
-              With several years of experience in the field, I've worked on various projects ranging
-              from small business websites to large-scale enterprise applications.
+              - Hello, I am Ranjan Bej 
+              </p>
+              <p className="text-gray-300 leading-relaxed mb-4">
+              - 4th Year Undergraduate Student
+              </p>
+              <p className="text-gray-300 leading-relaxed mb-4">
+              - Pursuing Btech. in Computer Science
+              </p>
+              <p className="text-gray-300 leading-relaxed mb-4">
+              - Iter Bhubaneswar
             </p>
-            <p className="text-gray-300 leading-relaxed">
+            {/* <p className="text-gray-300 leading-relaxed">
               When I'm not coding, you can find me exploring new technologies, contributing to open
               source projects, or sharing my knowledge with the developer community.
-            </p>
+            </p> */}
           </div>
 
           {/* Highlights Grid */}
@@ -91,28 +98,6 @@ export function AboutContent() {
                 </div>
               </motion.div>
             ))}
-          </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-4">
-            <div className="bg-gradient-to-br from-purple-500/10 to-purple-500/5 border border-purple-500/20 rounded-lg p-6 text-center">
-              <div className="text-3xl mb-2 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                5+
-              </div>
-              <div className="text-sm text-gray-400">Years Experience</div>
-            </div>
-            <div className="bg-gradient-to-br from-blue-500/10 to-blue-500/5 border border-blue-500/20 rounded-lg p-6 text-center">
-              <div className="text-3xl mb-2 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-                50+
-              </div>
-              <div className="text-sm text-gray-400">Projects</div>
-            </div>
-            <div className="bg-gradient-to-br from-green-500/10 to-green-500/5 border border-green-500/20 rounded-lg p-6 text-center">
-              <div className="text-3xl mb-2 bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
-                100%
-              </div>
-              <div className="text-sm text-gray-400">Client Satisfaction</div>
-            </div>
           </div>
         </motion.div>
       </div>

@@ -8,11 +8,10 @@ export function HeroContent() {
   const [isDeleting, setIsDeleting] = useState(false);
   
   const roles = [
-    'Full Stack Developer',
-    'Frontend Developer',
-    'Backend Developer',
-    'DevOps Engineer',
-    'Cloud Architect'
+    'Full Stack',
+    'Frontend',
+    'Backend',
+    'DevOps'
   ];
   
   useEffect(() => {
@@ -86,7 +85,7 @@ export function HeroContent() {
               </p>
               <p className="leading-7 ml-4">
                 <span className="text-cyan-400">name</span>:{' '}
-                <span className="text-green-400">"John Doe"</span>,
+                <span className="text-green-400">"Ranjan Bej"</span>,
               </p>
               <p className="leading-7 ml-4">
                 <span className="text-cyan-400">role</span>:{' '}
@@ -95,16 +94,12 @@ export function HeroContent() {
               </p>
               <p className="leading-7 ml-4">
                 <span className="text-cyan-400">location</span>:{' '}
-                <span className="text-green-400">"San Francisco, CA"</span>,
+                <span className="text-green-400">"Jamshedpur, Jharkhand"</span>,
               </p>
-              <p className="leading-7 ml-4">
-                <span className="text-cyan-400">experience</span>:{' '}
-                <span className="text-orange-400">5</span>,{' '}
-                <span className="text-gray-500">// years</span>
-              </p>
+             
               <p className="leading-7 ml-4">
                 <span className="text-cyan-400">email</span>:{' '}
-                <span className="text-green-400">"john.doe@example.com"</span>,
+                <span className="text-green-400">"ranjan.288.bej@gmail.com"</span>,
               </p>
               <p className="leading-7 ml-4">
                 <span className="text-cyan-400">available</span>:{' '}
@@ -147,6 +142,9 @@ export function HeroContent() {
                 <span className="text-green-400">'React'</span>,{' '}
                 <span className="text-green-400">'TypeScript'</span>,{' '}
                 <span className="text-green-400">'Node.js'</span>,{' '}
+                <span className="text-green-400">'Java'</span>,{' '}
+                <span className="text-green-400">'SQL'</span>,{' '}
+                <span className="text-green-400">'MongoDB'</span>,{' '}
                 <span className="text-green-400">'Python'</span>
               </p>
               <p className="leading-7">];</p>
@@ -169,7 +167,7 @@ export function HeroContent() {
                   <span className="text-cyan-400">github</span>
                   <span className="text-purple-400">:</span>
                   <span className="text-green-400 group-hover:underline flex items-center gap-1">
-                    "github.com/yourusername"
+                    "github.com/Ranjan-Bej"
                     <ExternalLink size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
                   </span>
                 </a>
@@ -183,7 +181,7 @@ export function HeroContent() {
                   <span className="text-cyan-400">linkedin</span>
                   <span className="text-purple-400">:</span>
                   <span className="text-green-400 group-hover:underline flex items-center gap-1">
-                    "linkedin.com/in/johndoe"
+                    "linkedin.com/in/ranjan-bej"
                     <ExternalLink size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
                   </span>
                 </a>
@@ -195,7 +193,7 @@ export function HeroContent() {
                   <span className="text-cyan-400">email</span>
                   <span className="text-purple-400">:</span>
                   <span className="text-green-400 group-hover:underline">
-                    "john.doe@example.com"
+                    "ranjan.288.bej@gmail.com"
                   </span>
                 </a>
               </div>
@@ -209,12 +207,12 @@ export function HeroContent() {
               </p>
               <div className="ml-4 my-4 p-6 bg-gradient-to-br from-purple-500/10 via-pink-500/10 to-blue-500/10 border border-purple-500/20 rounded-lg">
                 <div className="mb-6">
-                  <div className="text-sm text-purple-400 mb-2 font-mono">{'<Hero />'}</div>
+                  <div className="text-sm text-purple-400 mb-2 font-mono">{'<Intro />'}</div>
                   <h2 className="text-3xl md:text-5xl mb-3 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-                    Hi, I'm John Doe 👋
+                    Hi, I'm Ranjan Bej 👋
                   </h2>
                   <p className="text-lg md:text-2xl text-gray-300 mb-4">
-                    I'm a <span className="text-green-400">{displayedText}</span>
+                    Works On <span className="text-green-400">{displayedText}</span>
                     <span className="animate-pulse">_</span>
                   </p>
                   <p className="text-gray-400 mb-6 leading-relaxed">
@@ -234,21 +232,7 @@ export function HeroContent() {
                   </div>
                 </div>
 
-                {/* Stats */}
-                <div className="grid grid-cols-3 gap-4 pt-6 border-t border-gray-700/30">
-                  <div>
-                    <div className="text-2xl text-purple-400 mb-1">5+</div>
-                    <div className="text-xs text-gray-500">Years Exp.</div>
-                  </div>
-                  <div>
-                    <div className="text-2xl text-pink-400 mb-1">50+</div>
-                    <div className="text-xs text-gray-500">Projects</div>
-                  </div>
-                  <div>
-                    <div className="text-2xl text-blue-400 mb-1">15+</div>
-                    <div className="text-xs text-gray-500">Happy Clients</div>
-                  </div>
-                </div>
+                
               </div>
               <p className="leading-7 ml-4">);</p>
             </div>
